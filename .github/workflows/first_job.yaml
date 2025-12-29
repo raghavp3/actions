@@ -2,7 +2,7 @@ name: First_job
 on: [push]
 jobs:
   firstjob:
-    runs_on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
