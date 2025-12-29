@@ -1,7 +1,6 @@
-name: My First Workflow
 
-on: push
 
+<<<<<<< HEAD
 jobs:
   firstjob:
     runs_on: ubuntu-latest
@@ -14,3 +13,5 @@ jobs:
         run: ls
       - name: Read File
         run: cat README.md
+=======
+>>>>>>> 59c91895c42d6b122f3ffc409f7ad41ccf3fa2b4
