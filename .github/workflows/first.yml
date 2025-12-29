@@ -3,7 +3,7 @@ name: My First Workflow
 on: push
 
 jobs:
-  first_job:
+  firstjob:
     runs_on: ubuntu-latest
     steps:
       - name: Checkout Repository
